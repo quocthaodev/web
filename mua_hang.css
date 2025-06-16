@@ -1,0 +1,88 @@
+.order-container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            padding: 32px 28px;
+        }
+        .order-container h2 {
+            text-align: center;
+            color: #7c3aed;
+            margin-bottom: 18px;
+        }
+        .order-form label {
+            font-weight: 500;
+            margin-bottom: 6px;
+            display: block;
+        }
+        .order-form input, .order-form textarea, .order-form select {
+            width: 100%;
+            margin-bottom: 14px;
+            padding: 10px 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        .order-form .note {
+            font-size: 0.95rem;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        .order-form .pay-methods label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 400;
+        }
+        .order-form button {
+            width: 100%;
+            background: linear-gradient(90deg, #7c3aed 0%, #232526 100%);
+            color: #fff;
+            border: none;
+            padding: 12px 0;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .order-form button:hover {
+            background: linear-gradient(90deg, #232526 0%, #7c3aed 100%);
+            transform: scale(1.03);
+        }
+        .order-summary {
+            margin: 24px 0 10px 0;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 18px;
+            background: #f5f6fa;
+        }
+        .order-summary table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .order-summary th, .order-summary td {
+            border: 1px solid #e5e7eb;
+            padding: 8px;
+            text-align: center;
+        }
+        .order-summary th {
+            background: #e0e7ff;
+        }
+        .order-summary img {
+            width: 60px;
+            border-radius: 6px;
+        }
+        .order-summary .total {
+            font-weight: bold;
+            color: #7c3aed;
+        }
+        .order-policy {
+            font-size: 0.95rem;
+            color: #666;
+            margin: 12px 0 0 0;
+        }
+        .tb {
+            color: #16a34a;
+            text-align: center;
+            margin-bottom: 12px;
+        }

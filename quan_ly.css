@@ -1,0 +1,90 @@
+.admin-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            padding: 32px 28px;
+        }
+        .admin-container h2 {
+            text-align: center;
+            color: #7c3aed;
+            margin-bottom: 18px;
+        }
+        .admin-container form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .admin-container input[type="text"], .admin-container input[type="number"] {
+            padding: 8px 10px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        .custom-file-upload {
+            display: inline-block;
+            padding: 8px 18px;
+            background: #f5f6fa;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #232526;
+            font-size: 1rem;
+            margin-right: 10px;
+            transition: background 0.2s, border 0.2s;
+            position: relative;
+        }
+        .custom-file-upload:hover {
+            background: #e0e7ff;
+            border-color: #7c3aed;
+        }
+        .custom-file-upload input[type="file"] {
+            display: none;
+        }
+        #file-chosen {
+            margin-left: 8px;
+            color: #7c3aed;
+            font-weight: 500;
+        }
+        .admin-container button {
+            background: #7c3aed;
+            color: #fff;
+            border: none;
+            padding: 8px 18px;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .admin-container button:hover {
+            background: #232526;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 18px;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: 10px 8px;
+            text-align: center;
+        }
+        th {
+            background: #f5f6fa;
+        }
+        .btn-xoa {
+            background: #ef4444;
+            color: #fff;
+            border: none;
+            padding: 6px 14px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn-xoa:hover {
+            background: #b91c1c;
+        }
